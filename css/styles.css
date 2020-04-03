@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Lato:300i|Monoton|Open+Sans|Poiret+One|Roboto');
-
 body {
-    font-family: Roboto;
+    margin: 0 auto;
+    padding: 0;
+}
+h1 {
     font-weight: 100;
+    font-size: 18px;
 }

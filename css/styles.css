@@ -1,13 +1,51 @@
-<<<<<<< HEAD
-=======
-@import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Lato:300i|Monoton|Open+Sans|Poiret+One|Roboto');
+/*-- Import Link--*/
+@import url("https://fonts.googleapis.com/css?family=Bungee+Inline|Lato:300i|Monoton|Open+Sans|Poiret+One|Roboto");
+/*----------------------------------------------*/
+/** -- CSS Estilos -- **/
 body {
-    margin: 0 auto;
-    padding: 0;
-}
-h2 {
-    font-family: 'Roboto', Lato, sans-serif;
-    font-weight: 100;
-    font-size: 18px;
-}
->>>>>>> parent of d199863... tags
+  background: #f8f8f8; }
+
+div {
+  margin: 20px 0; }
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0; }
+
+span {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #bbb; }
+
+.true {
+  padding: 0 10px;
+  border-width: 3px 0 3px 3px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, #4CAF50, #29ec31) 1 100%;
+  background: aliceblue; }
+
+.true h3 {
+  color: #4caf50; }
+
+.alert {
+  padding: 0 10px;
+  border-width: 3px 0 3px 3px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, #ffc107, #FFEB3B) 1 100%;
+  background: #ffeaab66; }
+
+.alert h3 {
+  color: #ffc107; }
+
+.link {
+  padding: 0 10px;
+  border-width: 3px 0 3px 3px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, #ff0101, #fb6868) 1 100%;
+  background: #ffeded; }
+
+.link h3 {
+  color: #ff0101; }

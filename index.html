@@ -7,35 +7,74 @@
     <title>+ abellhudo</title>
 
     <!--Import jQuery before materialize.js-->
-    <script src="js/jquery.js"></script>
-    <script src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
 </head>
 <body>
-    <header>
-        <div class="menu_principal">
+    <header id="cabecalho">
+		<div class="top_bar">
 			<div class="container">
-				<nav class="navbar">
-					  <div class="nav-wrapper">
-					  	<!--<a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="material-icons">filter_list</i></a>-->
-					    <!--<a href="#" class="brand-logo"><img class="logo-responsive" src="img/logo.png" alt="Logo"></a>-->
-					    <a href="#" data-activates="menu-mobile" class="hover button-collapse right black-text"><i class="material-icons">menu</i></a>
-						<!-- Menu Desktop -->
-					    <ul class="right hide-on-med-and-down">
-					      <li><a href="">Inicio</a></li>
-					      <li><a href="">Blog</a></li>
-					      <li><a href="">Abellhudo</a></li>
-						  <li><a href="">Edições</a></li>
-						  <!-- Dropdown Trigger -->
-					      <li><a class="" href="">Revista</a></li>
-					      <li><a href="">Contato</a></li>
-					      
-					    </ul>
-					    
-					  </div>
+				<nav class="nav-wrapper center z-depth-0">
+					<ul class="right hide-on-med-and-down">
+						<li><a class="" href="">Minha Conta</a></li>
+						    <li><a class="" href="">Assine-já</a></li>
+						    <li class="log"><a class="tooltipped" href="" data-position="right" data-tooltip="Entrar">Login <i class="material-icons right">account_circle</i></a></li>
+						     
+					</ul>
 				</nav>
 			</div>
 		</div>
-    </header>
+		<div class="menu_principal">
+			<div class="container">
+				<nav class="navbar z-depth-0">
+					  <div class="nav-wrapper">
+					  	<!--<a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="material-icons">filter_list</i></a>-->
+					    <a href="#" class="brand-logo"><img class="logo-responsive" src="img/logo.png" alt="Logo"></a>
+					    <a href="#" data-activates="menu-mobile" class="hover button-collapse right black-text"><i class="material-icons">menu</i></a>
+					    <!-- Menu Esquerdo Mobile-->
+					    <ul id="slide-out" class="side-nav">
+						    
+						    <li><a href="#">ABM</a></li>
+						    <li><a href="#">Brasil</a></li>
+						    <li><a href="#">Cultura</a></li>
+						    <li><a href="#">Mundo</a></li>
+						    <li><a href="#">Sociedade</a></li>
+						    <li><div class="divider"></div></li>
+						    <li><a class="subheader">Seja um Assinante!</a></li>
+						    <li><a class="waves-effect" href="#!">Assinar Agora</a></li>
+						</ul>
+						<!-- Menu Desktop -->
+					    <ul class="right hide-on-med-and-down">
+					      <li><a class="" href="">Inicio</a></li>
+					      <li><a href="">Blog</a></li>
+					      <li><a class="tooltipped" href="" data-position="bottom" data-tooltip="Premium Content">Abellhudo</a></li>
+					      <li><a class="tooltipped" href="" data-position="bottom" data-tooltip="All Editions">Edições</a></li>
+					      <li><a class="" href="">Revista</a></li>
+					      <li><a class="tooltipped" href="" data-position="bottom" data-tooltip="Formulário de Contato">Contato</a></li>
+					      
+					    </ul>
+					    <!-- Menu Direto Mobile -->
+					    <ul class="side-nav" id="menu-mobile">
+					    	<li><div class="user-view">
+						      <div class="background center-align">
+						        <img src="">
+						      </div>
+						      <img class="circle" src="">
+						      <span class="white-text name">Abellhudo</span>
+						      <span class="white-text email">revista@abellhudo.com.br</span>
+						    </div></li>
+					        <li><a class="dropdown-button black-text" href="#!" data-activates=""><i class="material-icons left">account_circle</i>Entrar</a></li>
+					        <li class="divider"></li>
+					        <li><a href="collapsible.html"><i class="fab fa-accusoft"></i>Abellhudo</a></li>
+					        <li><a href="mobile.html"><i class="fas fa-low-vision"></i>Edições</a></li>
+					        <li><a href="mobile.html"><i class="fas fa-hand-holding"></i>Revista</a></li>
+					        <li><a href="mobile.html"><i class="far fa-address-book"></i>Contato</a></li>
+					      </ul>
+					  </div>
+				</nav>
+			</div>
+		</div>	
+	</header>
     <!--
     <main>
         <div class="true">
@@ -53,6 +92,6 @@
     </main>
     -->
     <footer></footer>
-    <script src="js/tema.js"></script>
+    <script type="text/javascript" src="/js/tema.js"></script>
 </body>
 </html>

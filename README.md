@@ -1,12 +1,12 @@
 # abellhudo
 Tema
 
-*HTML
-*CSS
-*JavaScript
-*PHP
+HTML,
+CSS,
+JavaScript,
+PHP
  e
- *Wordpress
+ Wordpress
  
  ----------------------------------------------------------------------------------------------------------------------------------
  

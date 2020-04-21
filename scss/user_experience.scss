@@ -14,7 +14,7 @@
 }
 .avatar-wrapper .user-thumb:hover::after {
     transform: scale(1.2);
-    border-color: #42c4ac;
+    border-color: #FF5722;
     transition: transform 0.2s cubic-bezier(0.06, 0.59, 0.24, 1.55),border-color 0.2s;
     cursor: pointer;
 }

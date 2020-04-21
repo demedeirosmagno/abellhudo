@@ -1,21 +1,18 @@
-## Theme for abellhudo
+## Theme for _*abellhudo site*_
 
 
 *HTML,
 CSS,
 JavaScript,
 PHP
- e
- Wordpress* for
+ and
+ Wordpress* for content management
  
  ---
  
  ### This theme is built
  
- *1º 5 Páginas de conteúdo e uma Página de Usuário.
- /
- *2º Um Dashboard para administrador e um para usuário.
- /
- *3º Uma Página contendo visualizador de PDF.
- /
- *4º Uma Página para fazer Upload de PDF.
+ 1. 5 Content pages and a User page.
+ 2. One Dashboard for administrator and one for user.
+ 3. A Page containing PDF viewer.
+ 4. One Page to Upload PDF.

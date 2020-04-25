@@ -99,3 +99,35 @@ span {
 
 .link h3 {
   color: #ff0101; }
+
+/* --- Navbar --- */
+.barra--topo {
+  background: linear-gradient(to left, #ff845c, #FFEB3B 100%); }
+
+.barra--topo nav {
+  height: 28px;
+  line-height: 28px;
+  background-color: transparent !important; }
+
+.barra--topo nav a {
+  font-size: 14px;
+  font-weight: 400;
+  color: #f8f8f8; }
+
+.barra--topo nav i {
+  display: block;
+  font-size: 22px;
+  height: 28px;
+  line-height: 28px; }
+
+.barra--topo nav .right {
+  margin-left: 8px; }
+
+.menu--principal {
+  background: white; }
+
+.menu--principal nav {
+  background-color: transparent !important; }
+
+.menu--principal nav a {
+  color: black; }

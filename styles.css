@@ -105,8 +105,8 @@ span {
   background: linear-gradient(to left, #ff845c, #FFEB3B 100%); }
 
 .barra--topo nav {
-  height: 28px;
-  line-height: 28px;
+  height: 32px;
+  line-height: 32px;
   background-color: transparent !important; }
 
 .barra--topo nav a {
@@ -117,8 +117,8 @@ span {
 .barra--topo nav i {
   display: block;
   font-size: 22px;
-  height: 28px;
-  line-height: 28px; }
+  height: 32px;
+  line-height: 26px; }
 
 .barra--topo nav .right {
   margin-left: 8px; }
@@ -131,3 +131,11 @@ span {
 
 .menu--principal nav a {
   color: black; }
+
+.menu--principal nav i {
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text !important;
+  background: -webkit-linear-gradient(45deg, #FFEB3B, #FF5722 100%); }
+
+.menu--principal .dropdown-content li > a {
+  line-height: 36px; }

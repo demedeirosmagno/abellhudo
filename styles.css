@@ -124,13 +124,17 @@ span {
   margin-left: 8px; }
 
 .menu--principal {
-  background: white; }
+  background: white;
+  box-shadow: inset 0px 8px 10px -10px #d27d01; }
 
 .menu--principal nav {
   background-color: transparent !important; }
 
 .menu--principal nav a {
   color: black; }
+
+.menu--principal nav a:hover {
+  background-color: rgba(181, 175, 175, 0.21); }
 
 .menu--principal nav i {
   -webkit-text-fill-color: transparent;

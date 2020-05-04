@@ -4,6 +4,8 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Lato:300i|Monoton|Open+Sans|Poiret+One|Roboto');
 @import 'css/materialize.css';
 /*----------------------------------------------*/
-@import "user_experience.scss";
+@import "reset.scss";
 @import "main.scss";
+@import "user_experience.scss";
 @import "menu.scss";
+@import "alert.scss";

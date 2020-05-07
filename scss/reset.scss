@@ -31,7 +31,7 @@ img {
 a{
     color: #e2a126;
 }
-a:hover{color:green;}
+a:hover{color:red;}
 a, a:hover, a:focus, a:active {
     text-decoration: none;
     -webkit-transition-duration: 500ms;
@@ -56,6 +56,7 @@ a, a:hover, a:focus, a:active {
     border-radius: 10px;
 }
 .section {
+    display: grid !important;
     padding-top: 2rem !important;
     padding-bottom: 2rem !important;
     padding-left: 1rem;

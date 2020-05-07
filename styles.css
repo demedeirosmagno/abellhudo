@@ -37,7 +37,7 @@ a {
   color: #e2a126; }
 
 a:hover {
-  color: green; }
+  color: red; }
 
 a, a:hover, a:focus, a:active {
   text-decoration: none;
@@ -63,12 +63,20 @@ a, a:hover, a:focus, a:active {
   border-radius: 10px; }
 
 .section {
+  display: grid !important;
   padding-top: 2rem !important;
   padding-bottom: 2rem !important;
   padding-left: 1rem;
   padding-right: 1rem; }
 
 /** -- CSS Estilos -- **/
+.default {
+  margin: 0 auto;
+  padding: 6px 0px 0px 0px; }
+
+.secao--1 {
+  background: #f3f3f3; }
+
 .user-view .background {
   background: linear-gradient(to left, #fd6c3e, #ffa828 100%); }
 
@@ -150,10 +158,16 @@ a, a:hover, a:focus, a:active {
   background-color: transparent !important; }
 
 .menu--principal nav a {
-  color: black; }
+  color: #c1c1c1; }
 
 .menu--principal nav a:hover {
+  color: #FF9800;
+  text-shadow: 0px 0px 1px;
   background-color: rgba(181, 175, 175, 0.21); }
+
+.menu--principal nav a:hover i {
+  background: -webkit-linear-gradient(45deg, #fbfbfb, #8a8a8a);
+  text-shadow: none; }
 
 .menu--principal nav i {
   -webkit-text-fill-color: transparent;
@@ -162,6 +176,45 @@ a, a:hover, a:focus, a:active {
 
 .menu--principal .dropdown-content li > a {
   line-height: 36px; }
+
+/* //// Cards //// */
+.card {
+  border: none;
+  border-radius: 6px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.08); }
+
+.card .thumb {
+  display: flex;
+  max-height: 192px; }
+
+.card .thumb img {
+  width: 100%;
+  height: auto;
+  background-clip: content-box;
+  background-size: cover;
+  background-position-x: center;
+  object-fit: cover;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px; }
+
+.card .title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin: auto;
+  padding: 5px 10px;
+  color: black; }
+
+.card .text {
+  margin: 0;
+  padding: 5px 10px; }
+
+.card .text p {
+  font-family: Roboto;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.3; }
 
 .alert h3 {
   font-family: 'Roboto', sans-serif;

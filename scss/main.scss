@@ -1,8 +1,32 @@
 /** -- CSS Estilos -- **/
 .default {
     margin: 0 auto;
-    padding: 6px 0px 0px 0px;
+    padding: 10px 0px 1px 0px;
 }
-.secao--1 {
-    background: #f3f3f3;
+.section-1 {
+    background: #e4e4e4;/*#f3f3f38*/
+}
+.section-2 {}
+.section-3 {background: #e4e4e4;}
+/* Utils Reveals */
+.scroll-reveal {
+    animation: fadeAndSlide 0.7s ease-in-out forwards;
+}
+@keyframes fadeAndSlide {
+    from {
+        margin-top: 350px;
+        opacity: 0;
+    }
+    to {
+        margin-top: 0px;
+        opacity: 1;
+    }
+}
+
+/* Colors */
+.section-1:nth-child(),
+.section-2:nth-child(),
+.section-3:nth-child() {
+    background: #4ecdc4;
+    flex-grow: 3;
 }

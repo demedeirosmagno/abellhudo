@@ -1,0 +1,60 @@
+/* :: 02.0 Cards CSS */
+.card {
+    border: none;
+    border-radius: 6px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.08);
+}
+.card .thumb {
+    display: flex;
+    max-height: 192px;
+}
+.card .thumb img {
+    width: 100%;
+    height: auto;
+    background-clip: content-box;
+    background-size: cover;
+    background-position-x: center;
+    object-fit: cover;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.card .title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1;
+    margin: auto;
+    padding: 5px 10px;
+    color: black
+}
+.card .text {
+    margin: 0;
+    padding: 5px 10px;
+}
+.card .text .details {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    margin-top: 0;
+    color: #726a84;
+
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+/** Thumb filter**/
+.card .thumb {
+    background: linear-gradient(45deg, hsla(14, 100%, 57%, 0.28), #FF9800);
+}
+.card .thumb img { 
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.card .thumb:hover img {
+    opacity: .5;
+}

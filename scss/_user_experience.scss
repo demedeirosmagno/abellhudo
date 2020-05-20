@@ -1,36 +1,47 @@
-.user-view  .background {
-    background: linear-gradient(to left, #fd6c3e, #ffa828 100%);
+.user-view  {
+    .background {
+        background: linear-gradient(to left, #fd6c3e, #ffa828 100%);
+    }
+    .name {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400!important;
+        font-size: 18px !important;
+        color: black;
+        text-shadow: 0px 0px 2px #9E9E9E;
+    }
+    .email {
+        color: white !important;
+    }
 }
-
-
 .avatar-wrapper {
+
     display: block;
     max-width: 64px;
-}
-.avatar-wrapper .user-thumb {
-    display: block;
-    overflow: hidden;
-    height: 64px;
-}
-.avatar-wrapper .user-thumb:hover::after {
-    transform: scale(1.2);
-    border-color: #FF5722;
-    transition: transform 0.2s cubic-bezier(0.06, 0.59, 0.24, 1.55),border-color 0.2s;
-    cursor: pointer;
-}
-.avatar-wrapper .user-thumb::after {
-    border-width: 4px;
-}
-.avatar-wrapper .user-thumb::after {
-    content: '';
-    width: 64px;
-    height: 64px;
-    border-radius: 50%;
-    position: absolute;
-    top: 16px;
-    left: 16px;
-    border: 2px solid rgba(255, 255, 255, 0.5);
-    transition: transform .15s, border-color .15s;
+
+    .user-thumb {
+        display: block;
+        overflow: hidden;
+        height: 64px;
+
+        &::after {
+            content: '';
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            border: 2px solid rgba(255, 255, 255, 0.5);
+            transition: transform .15s, border-color .15s;
+        }
+
+        &:hover::after {
+            transform: scale(1.2);
+            border-color: #FF5722;
+            transition: transform 0.2s cubic-bezier(0.06, 0.59, 0.24, 1.55),border-color 0.2s;
+            cursor: pointer;
+        }  
+    } 
 }
 /*
 .user-view .circle {
@@ -43,13 +54,3 @@
     padding: 3px;
 }
 */
-.user-view .name {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400!important;
-    font-size: 18px !important;
-    color: black;
-    text-shadow: 0px 0px 2px #9E9E9E;
-}
-.user-view .email {
-    color: white !important;
-}

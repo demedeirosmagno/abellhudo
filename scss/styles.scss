@@ -9,12 +9,11 @@
     01.0 Reboot Area CSS
     02.0 Cards CSS
 --------------------------------------------- */
-/* Import Fonts & All CSS */
-@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
-@import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Lato:300i|Monoton|Open+Sans|Poiret+One|Roboto');
+// Import All CSS 
 @import 'css/materialize.css';
-/*----------------------------------------------*/
-
+//----------------------------------------------
+//variables and utilities
+@import "utilities/variables";
 //Components 
 @import "user_experience.scss";
 @import "menu.scss";

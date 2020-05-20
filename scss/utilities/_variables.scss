@@ -1,4 +1,4 @@
-  $primary-color: color("materialize-red", "lighten-2") !default;
+  /*$primary-color: color("materialize-red", "lighten-2") !default;
   $primary-color-light: false !default;
   $primary-color-dark: false !default;
 
@@ -13,7 +13,15 @@
   $secondary-color: color("teal", "lighten-1") !default;
   $success-color: color("green", "base") !default;
   $error-color: color("red", "base") !default;
-  
-  $link-color: color("light-blue", "darken-1") !default;
+  $link-color: color("light-blue", "darken-1") !default;*/
+
+  @mixin l-menu { 
+      font-family: 'Raleway', sans-serif;
+      font-weight: 500;
+  }
+  @mixin s-menu {
+      font-family: 'Roboto', sans-serif;
+      font-size: .9rem;
+  }
 
   /*** More variables not shown here.. ***/

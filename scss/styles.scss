@@ -12,16 +12,18 @@
 // Import All CSS 
 @import 'css/materialize.css';
 //----------------------------------------------
+
 //variables and utilities
+@import "utilities/colors";
 @import "utilities/variables";
+
+// Stylesheet
+@import "reset.scss";
+@import "main.scss";
+
 //Components 
 @import "user_experience.scss";
 @import "menu.scss";
 @import "cards.scss";
 @import "alert.scss";
 @import "scrool_bar.scss";
-
-
-// Stylesheet
-@import "reset.scss";
-@import "main.scss";

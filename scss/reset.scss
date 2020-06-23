@@ -1,7 +1,7 @@
 // :: 01.0 Reboot Area CSS 
 body {
 	padding: 0;
-	background: #f8f8f8;
+	background: var(--background-color);
 	font-family: 'Muli', sans-serif;
     color: #343c55;
     max-width: 100% !important;

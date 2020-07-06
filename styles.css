@@ -104,6 +104,9 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.4;
   letter-spacing: 0.03rem; }
 
+h2, h3 {
+  font-size: 1.2rem; }
+
 .h6, h6 {
   font-size: 1rem; }
 
@@ -270,6 +273,29 @@ a {
   .menu--principal .dropdown-content li a:hover {
     background-color: #FFEB3B;
     color: #000000; }
+
+.one {
+  position: relative;
+  display: block; }
+
+.one img {
+  width: 100%;
+  object-fit: cover;
+  height: 380px; }
+
+.one .category {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  margin-right: 15px;
+  color: black; }
+
+.one:before {
+  content: "";
+  filter: blur(1px); }
+
+.one:hover img {
+  filter: blur(1px); }
 
 .card {
   border: none;

@@ -22,8 +22,9 @@
 @import "main.scss";
 
 //Components 
-@import "user_experience.scss";
-@import "menu.scss";
-@import "cards.scss";
-@import "alert.scss";
-@import "scrool_bar.scss";
+
+@import "components/user_experience";
+@import "components/menu";
+@import "components/cards";
+@import "components/alert";
+@import "components/scrool_bar";

@@ -1,51 +1,24 @@
 // 1. Colors
-// ==========================================================================
-/*
-$primary-color: color("materialize-red", "lighten-2") !default;
-$primary-color-light: lighten($primary-color, 15%) !default;
-$primary-color-dark: darken($primary-color, 15%) !default;
-
-$secondary-color: color("teal", "lighten-1") !default;
-$success-color: color("green", "base") !default;
-$error-color: color("red", "base") !default;
-$link-color: color("light-blue", "darken-1") !default;
-*/
-
 // Valores
 :root {
-    --background-color: #fff;
-    --ab-blue-100: rgb(210, 227, 252);
-    --ab-blue-300: rgb(138, 180, 248);
-    --ab-blue-600: rgb(26, 115, 232);
-    --ab-blue-700: rgb(25, 103, 210);
-    --ab-gray-100: rgb(241, 243, 244);
-    --ab-gray-300: rgb(218, 220, 224);
-    --ab-gray-500: rgb(154, 160, 166);
-    --ab-gray-50: rgb(248, 249, 250);
-    --ab-gray-600: rgb(128, 134, 139);
-    --ab-gray-700: rgb(95, 99, 104);
-    --ab-gray-800: rgb(60, 64, 67);
-    --ab-gray-900: rgb(32, 33, 36);
-
+    // métodos
+    --background-color: var(--ab-white);
     --background: var(--background-color);
+
+    //textos
+    --heading-color: var(--ab-gray);
     --color: var(--text-color);
-    --text-color: var(--ab-gray-700);
-    --link-color: rgb(88, 88, 88);
-    --small-link-color: var(--ab-gray-700);
+    --text-color: var(--ab-black);
+    --link-color: var(--ab-orange);
+    --error-code-color: var(--ab-alert);
 
-    --popup-container-background-color: rgba(0,0,0,.65);
-    --heading-color: var(--ab-gray-900);
-    --error-code-color: var(--ab-gray-700);
-
-    --primary-button-text-color: var(--ab-blue-100);
-    --primary-button-fill-color-active: var(--google-blue-700);
-    --primary-button-fill-color: var(--ab-blue-600);
-
-    --secondary-button-border-color: var(--ab-gray-500);
-    --secondary-button-fill-color: var(--ab-gray-500);
-    --secondary-button-hover-border-color: var(--ab-gray-600);
-    --secondary-button-hover-fill-color: var(--ab-gray-50);
-    --secondary-button-text-color: var(--ab-gray-700);
+    // cores
+    --ab-white: #F5F2F2;
+    --ab-gray: #C1C1C1;
+    --ab-black: #262626;
+    --ab-yellow: #FFEB3B;
+    --ab-orange: #FF845C;
+    --ab-alert: red;
 
 
 /* 
@@ -59,8 +32,7 @@ $link-color: color("light-blue", "darken-1") !default;
     --exemplo-1: #fff;
     --exemplo-2: var(--cor);
     --cor: #000:
-
-    */
+*/
 
 }
 

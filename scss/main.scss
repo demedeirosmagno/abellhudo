@@ -1,14 +1,15 @@
-/** -- CSS Estilos -- **/
+/* -- CSS Estilos -- */
 .default {
     margin: 0 auto;
     padding: 10px 0px 1px 0px;
 }
-.section-1 {
-    background: #f1f1f1;/*#f3f3f38*/
-}
-.section-2 {}
-.section-3 {background: #f1f1f1;}
-/* Utils Reveals */
+
+// Cores das sections
+.first { background: var(--ab-orange); }
+.second { background: var(--ab-black); }
+.third { background: var(--ab-alert); }
+
+// Utils Reveals 
 .scroll-reveal {
     animation: fadeAndSlide 0.7s ease-in-out forwards;
 }
@@ -23,9 +24,11 @@
     }
 }
 /* Colors */
-.section-1:nth-child(),
-.section-2:nth-child(),
-.section-3:nth-child() {
+/*
+.first:nth-child(),
+.second:nth-child(),
+.third:nth-child() {
     background: #4ecdc4;
     flex-grow: 3;
 }
+*/

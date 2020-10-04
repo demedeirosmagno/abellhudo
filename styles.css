@@ -108,7 +108,8 @@ a {
 /* -- CSS Estilos -- */
 .default {
   margin: 0 auto;
-  padding: 10px 0px 1px 0px; }
+  padding: 0;
+  /*10px 0px 1px 0px;*/ }
 
 .first {
   background: var(--ab-orange); }
